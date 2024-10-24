@@ -3,7 +3,7 @@
 #### Algorthims
 1. Binary Search &#x2714;
 2. Merge Sort &#x2714;
-3. Partition Sort
+3. Partition Sort &#x2714;
 4. All Sorting
 5. Sliding window
 6. LL reversal
