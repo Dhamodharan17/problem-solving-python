@@ -2,35 +2,36 @@
 
 #### Algorthims
 1. Binary Search &#x2714;
-2. Merge Sort
-3. All Sorting
-4. Sliding window
-5. LL reversal
-6. Flyod cycle detection
-7. zigzag traversal of matrix
-8. tree/graph traversals
-9. flood fill and graph algos
-10. lee algorthim
-11. graph biparite
-12. union find
-13. kmp
-14. euclid
-15. boyer moore mahority
-16. dutch national flag
-17. huffman coding
-18. detect cycle in DAG
-19. A*
-20. Stassesn matrix multiplication
-21. Greedy
-22. Multistage graph
-23. DP - travelling salesman
-24. DP patterns
-25. articulation point
-26. backtracking sudiko
-27. knapsack
-28. kmp
-29. avl tree
-30. btree and b+ tree
-31. hamulation cycle
-32. n queen
-33. multistage graph
+2. Merge Sort &#x2714;
+3. Partition Sort
+4. All Sorting
+5. Sliding window
+6. LL reversal
+7. Flyod cycle detection
+8. zigzag traversal of matrix
+9. tree/graph traversals
+10. flood fill and graph algos
+11. lee algorthim
+12. graph biparite
+13. union find
+14. kmp
+15. euclid
+16. boyer moore mahority
+17. dutch national flag
+18. huffman coding
+19. detect cycle in DAG
+20. A*
+21. Stassesn matrix multiplication
+22. Greedy
+23. Multistage graph
+24. DP - travelling salesman
+25. DP patterns
+26. articulation point
+27. backtracking sudiko
+28. knapsack
+29. kmp
+30. avl tree
+31. btree and b+ tree
+32. hamulation cycle
+33. n queen
+34. multistage graph
