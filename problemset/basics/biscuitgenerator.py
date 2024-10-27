@@ -21,7 +21,7 @@ def biscuitGenerator():
     
 biscuitGenerator()
 
-# AP2
+# AP2 - previous approach we went to each slot and added biscuits but same biscuits at each slot so we can find slots * #biscuits
 
 def biscuitGenerator():
     
