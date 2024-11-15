@@ -7,7 +7,7 @@ class Solution(object):
 
             if idx1 < 0 or idx2 < 0:
                 return 0
-    
+            # trying all possible ways to match string
             if text1[idx1] == text2[idx2]:
                 return 1 + util(idx1-1,idx2-1)
             else:
