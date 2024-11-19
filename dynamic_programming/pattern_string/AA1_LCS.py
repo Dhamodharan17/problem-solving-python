@@ -61,7 +61,7 @@ class Solution(object):
                     current[ind2] = 1 + prev[ind2-1]
                 else:
                     current[ind2] = max(prev[ind2],current[ind2-1])
-            prev = current
+            prev = current[:]
         
         return prev[n2]
 
