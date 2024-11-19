@@ -1,4 +1,4 @@
-# recursion
+# top down
 class Solution(object):
     def longestCommonSubsequence(self, text1, text2):
         n1 = len(text1)
@@ -14,4 +14,33 @@ class Solution(object):
                 return max(util(idx1-1,idx2), util(idx1,idx2-1))
         
         return util(n1-1,n2-1)
+        
+#bottom up - building iteratively
+class Solution(object):
+    def longestCommonSubsequence(self, text1, text2):
+        
+        n1 = len(text1)
+        n2 = len(text2)
+
+        dp = [[0 for _ in range(n2+1)] for _ in range(n1+1)]
+        #LCS of ""/"" = 0 since there is no character
+        # Lcs with empty string
+        for i in range(n1+1):
+            dp[i][0] = 0
+        for i in range(n2+1):
+            dp[0][i] = 0
+        
+        for ind1 in range(1,n1+1):
+            for ind2 in range(1,n2+1):
+                if text1[ind1-1] == text2[ind2-1]:
+                    #dp[ind1-1][ind2-1] - both string reduced by 1
+                    dp[ind1][ind2] = 1 + dp[ind1-1][ind2-1]
+                else:
+                    dp[ind1][ind2] = max(dp[ind1-1][ind2],dp[ind1][ind2-1])
+        
+        return dp[n1][n2]
+
+       
+
+        
 
