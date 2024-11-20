@@ -52,6 +52,8 @@ class Solution(object):
         return util(-1, 0)
 
 #bottom up
+#bigger problem : find lis for set of size n
+#smaller problem : find list for set of size n-1 + take from dp array which is already solved.
 class Solution(object):
     def lengthOfLIS(self, nums):
 
