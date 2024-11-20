@@ -19,10 +19,12 @@ i = n
 j = m
 while i>0 and j>0:
     if text1[i-1] == text2[j-1]:
+      # when both chars, equal add to result
         lcs_string+=text1[i-1]
         i-=1
         j-=1
-    elif text1[i-1]>text2[j-1]:
+      # when both chars, not equal -> chose lcs
+    elif dp[i-1][j]>dp[i][j-1]:
         i-=1
     else:
         j-=1
