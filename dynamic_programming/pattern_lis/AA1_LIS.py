@@ -1,3 +1,4 @@
+#try out all increasing sequence and subsequences
 class Solution(object):
     def lengthOfLIS(self, nums):
         n = len(nums)
