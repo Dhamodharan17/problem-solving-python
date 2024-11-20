@@ -77,7 +77,15 @@ class Solution(object):
 
         return dp[0][0]
 
-       
+# DP Table:
+# Rows: i = index of nums being processed, i = n is the base case when no elements are left
+#
+#       j = -1  j = 0  j = 1  j = 2
+# i = 0     2      0      0      0
+# i = 1     1      1      0      0
+# i = 2     1      0      0      0
+# i = n     0      0      0      0
+
         
 
 
