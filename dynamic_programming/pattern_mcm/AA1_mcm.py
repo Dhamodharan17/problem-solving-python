@@ -1,3 +1,4 @@
+#top down
 class Solution:
   #current_cost - changes based on problem
     def matrixMultiplication(self, arr):
@@ -23,3 +24,24 @@ class Solution:
                 
         return util(1, n-1) 
 
+#bottom up
+class Solution:
+    def matrixMultiplication(self, arr):
+        
+        n = len(arr)
+        dp = [[0] * n for _ in range(n)]
+        
+        for i in range(n):
+            dp[i][i] = 0
+        
+        for i in range(n-2,0,-1):
+            for j in range(i+1, n):
+                mini = float('inf')
+                for k in range(i,j):
+                    steps = (arr[i-1] * arr[k] * arr[j]
+                    + dp[i][k]
+                    + dp[k+1][j])
+                    mini = min(mini, steps)
+                dp[i][j] = mini
+        
+        return dp[1][n-1]
