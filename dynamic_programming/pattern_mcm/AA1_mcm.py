@@ -33,7 +33,7 @@ class Solution:
         
         for i in range(n):
             dp[i][i] = 0
-        
+        #cuts start from end
         for i in range(n-2,0,-1):
             for j in range(i+1, n):
                 mini = float('inf')
