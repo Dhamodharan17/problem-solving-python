@@ -54,6 +54,85 @@ class Solution:
             maxi = max(zeros+ones, maxi)
 
         return maxi
+# soln 2
+class Solution:
+    def maxScore(self, s: str) -> int:
+
+        n = len(s)
+        prefix_zeros = [0] * n
+
+        for i in range(n):
+            if s[i] == '0':
+                prefix_zeros[i] = (prefix_zeros[i-1] + 1 )if i > 0 else 1
+            else:
+                prefix_zeros[i] = prefix_zeros[i-1]
+
+        maxi = float('-inf')
+        for left in range(n-1):
+
+            zeros = prefix_zeros[left]
+            ones = 0
+            for right in range(left+1, n):
+                if s[right] == '1':
+                    ones += 1
+
+            maxi = max(zeros+ones, maxi)
+
+        return maxi
+# soln 3
+class Solution:
+    def maxScore(self, s: str) -> int:
+
+        n = len(s)
+        prefix_zeros = [0] * n
+        suffix_ones = [0] * n
+
+        for i in range(n):
+            if s[i] == '0':
+                prefix_zeros[i] = (prefix_zeros[i-1] + 1 )if i > 0 else 1
+            else:
+                prefix_zeros[i] = prefix_zeros[i-1]
+        
+        for i in range(n-1, -1, -1):
+            if s[i] == '1':
+                suffix_ones[i] = (suffix_ones[i+1] +1) if i < n-1 else 1
+            else:
+                suffix_ones[i] = suffix_ones[i+1] if i < n-1 else 0
+
+
+        maxi = float('-inf')
+
+        for left in range(n-1):
+
+            zeros = prefix_zeros[left]
+            ones = suffix_ones[left+1]   
+            maxi = max(zeros+ones, maxi)
+
+        return maxi
+
+#soln 4
+class Solution:
+    def maxScore(self, s: str) -> int:
+
+         # since we want to zeros from left
+        ones = s.count('1')
+        zeros = 0
+        ans = 0
+
+        # len(s) - 1 => so we have left and right partition
+        for i in range(len(s) - 1):
+            # since going forward -> if encountered 1 -> 
+            if s[i] == '1':
+                ones -= 1
+            else:
+                zeros +=1
+            ans = max(ans, zeros+ones)
+
+        return ans
+
+        
+
+    
 
 
 
