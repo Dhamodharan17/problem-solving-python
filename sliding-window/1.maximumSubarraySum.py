@@ -44,3 +44,29 @@ class Solution:
         
         #return ans
 
+def maximumSubarraySum(self, nums: List[int], k: int) -> int:
+
+        n = len(nums)
+        sum = ans = left = right = 0
+        dupChecker = 0
+
+        while right < n:
+
+            current = nums[right]
+            sum += current
+
+            #remove duplicate duplicate
+            while ((dupChecker & 1<<current )> 0  or right - left == k ) and left < right:
+                dupChecker &= ~ (1 << nums[left]) #unset
+                sum -= nums[left]
+                left+=1
+            
+            dupChecker |= (1<<current)  #set
+
+            #k window size
+            if right - left == k-1:
+                ans = max(ans, sum)                
+
+            right += 1
+        return ans
+
