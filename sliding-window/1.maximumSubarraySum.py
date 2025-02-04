@@ -13,7 +13,7 @@ class Solution:
 
             #handle duplicate
             while (index_dict[current] > 1 or right - left == k ) and left < right:
-                index_dict[nums[left]] -= 1 #should impact the current count in map
+                index_dict[nums[left]] -= 1 #will impact the current count in map
                 sum -= nums[left]
                 left+=1
 
