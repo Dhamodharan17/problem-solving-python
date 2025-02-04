@@ -70,3 +70,39 @@ def maximumSubarraySum(self, nums: List[int], k: int) -> int:
             right += 1
         return ans
 
+class Solution:
+    def maximumSubarraySum(self, nums: List[int], k: int) -> int:
+
+        n = len(nums)
+        sum = ans = left = right = 0
+        dup_set = set()
+
+        while right < n:
+            current = nums[right]
+
+            if current not in dup_set:
+                sum += current
+                dup_set.add(current)
+
+                # no duplicate + window size k -> can be answer
+                if right - left == k-1:
+                    ans = max(ans, sum)
+
+                    #reached window size
+                    sum -= nums[left]
+                    dup_set.remove(nums[left])
+                    left += 1
+
+            else: #duplicate
+                # stop when we found the duplicate
+                while nums[left] != nums[right]:
+                    sum -= nums[left]
+                    dup_set.remove(nums[left])
+                    left+=1
+                #by pass duplicate
+                left+=1
+            
+            right += 1
+        
+        return ans
+
