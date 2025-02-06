@@ -26,27 +26,39 @@ class Solution:
 class Solution:
     def maxScore(self, cardPoints: List[int], k: int) -> int:
 
-        ans, n = 0, len(cardPoints)
+        #bottle neck -> prefix and suffix array
+        #soln - using variable to hold array sum
+        sum_left, sum_right = sum(cardPoints[:k]), 0
+        res = sum_left#complete 1st window
+        for i in range(k):
+            sum_left -= cardPoints[k-1-i]#will reduce till 0(complete 2nd window)
+            sum_right += cardPoints[len(cardPoints)-1-i]
+            res = max(res, sum_left+sum_right)
+        return res
+        
+        # ans, n = 0, len(cardPoints)
 
-        prefix_sum = [0] * n
-        prefix_sum[0] = cardPoints[0]
-        for i in range(1,n):
-            prefix_sum[i] = prefix_sum[i-1] + cardPoints[i]
+        # prefix_sum = [0] * n
+        # prefix_sum[0] = cardPoints[0]
+        # for i in range(1,n):
+        #     prefix_sum[i] = prefix_sum[i-1] + cardPoints[i]
 
-        suffix_sum = [0] * n
-        suffix_sum[n-1] = cardPoints[n-1]
-        for i in range(n-2,-1,-1):
-            suffix_sum[i] = suffix_sum[i+1] + cardPoints[i]
+        # suffix_sum = [0] * n
+        # suffix_sum[n-1] = cardPoints[n-1]
+        # for i in range(n-2,-1,-1):
+        #     suffix_sum[i] = suffix_sum[i+1] + cardPoints[i]
 
             
-        for i in range(k):
-            fsum = prefix_sum[i]
-            print(i)
-            bsum = 0 if i== k-1 else suffix_sum[n-k+i+1]
-            print(n-k+i)
-            ans = max(ans, fsum+bsum)
+        # for i in range(k):
+        #     fsum = prefix_sum[i]
+        #     print(i)
+        #     bsum = 0 if i== k-1 else suffix_sum[n-k+i+1]
+        #     print(n-k+i)
+        #     ans = max(ans, fsum+bsum)
         
-        ans = max(ans,suffix_sum[n-k])
-        return ans
+        # ans = max(ans,suffix_sum[n-k])
+        # return ans
+
+        
 
         
