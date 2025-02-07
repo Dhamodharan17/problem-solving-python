@@ -24,4 +24,35 @@ class Solution:
                     ans = max(ans, j-i+1)
 
         return ans
+
+class Solution:
+    def longestSemiRepetitiveSubstring(self, s: str) -> int:
+
+        left, right = 0, 1
+        ans = 1
+        repeated = ''
+        prev = ''
+
+        while right < len(s):
+            
+            #2nd adj letters - voilation case
+            #already oruthan erukan, ne yaru da komali
+            if repeated != '' and s[right-1] == s[right]:
+
+                ans = max(ans, right - left)
+                #by pass 1st adjacenet equal case
+                while s[left] != s[left+1]:
+                    left += 1
+                left += 1
+
+            #update latest repeat
+            if s[right-1] == s[right]:
+                repeated = s[right]
+
+            right += 1
+        
+        ans = max(ans, right-left)
+        return ans
+
+        
         
