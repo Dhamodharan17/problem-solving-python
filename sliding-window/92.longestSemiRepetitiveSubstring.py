@@ -27,7 +27,7 @@ class Solution:
 
 class Solution:
     def longestSemiRepetitiveSubstring(self, s: str) -> int:
-
+        # why right - 1 ? a. out of bound check not needed b. aligns with sliding window
         left, right = 0, 1
         ans = 1
         repeated = ''
