@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="svBv-zBPLVtbtiTf6Jia">
-    <mxGraphModel dx="2049" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,9 @@
         </mxCell>
         <mxCell id="Tqx3JiJj4iFWmPvK3-L_-7" value="&lt;b&gt;STEP BY STEP EXECUTION&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="840" y="30" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Tqx3JiJj4iFWmPvK3-L_-8" value="&lt;b&gt;REQUIREMENT UNDERSTANDING&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="31.779999999999973" y="30" width="340" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
