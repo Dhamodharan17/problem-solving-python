@@ -55,6 +55,12 @@
         <mxCell id="GMMVsp1axSttJa6mAhZl-29" value="&lt;b&gt;&lt;u&gt;BOTTLE NECK&lt;/u&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;1. Emotional Loss&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2. Spending More Time&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;3. No Idea Problems&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="920" y="450" width="240" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="GMMVsp1axSttJa6mAhZl-30" value="&lt;b&gt;&lt;u&gt;Solving Technique&lt;/u&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;1. Step By Step Understanding&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2. Solving part by part&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;3. Looking Outside&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="920" y="570" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GMMVsp1axSttJa6mAhZl-31" value="&lt;div&gt;&lt;b&gt;Needed Vs Having&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="920" y="689" width="240" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
