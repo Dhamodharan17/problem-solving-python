@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="hUyLYyHjYQYTY6yxm78R">
-    <mxGraphModel dx="1793" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,9 @@
         </mxCell>
         <mxCell id="GMMVsp1axSttJa6mAhZl-23" value="&lt;b&gt;SUM 1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GMMVsp1axSttJa6mAhZl-29" value="&lt;b&gt;&lt;u&gt;BOTTLE NECK&lt;/u&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;1. Emotional Loss&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2. Spending More Time&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;3. No Idea Problems&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="920" y="450" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
