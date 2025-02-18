@@ -7,7 +7,7 @@
 - https://leetcode.com/problems/count-numbers-with-unique-digits/description/ ✅ 🔄
 - https://leetcode.com/problems/shopping-offers/description/ ✅ 🔄
 - https://leetcode.com/problems/domino-and-tromino-tiling/description/ ✅ 🔄
-- https://leetcode.com/problems/knight-dialer/description/
+- https://leetcode.com/problems/knight-dialer/description/✅ 
 
 ### Day 1 - Evening
 - https://leetcode.com/problems/filling-bookcase-shelves/description/
