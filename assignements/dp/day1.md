@@ -1,3 +1,5 @@
+# Rules : 40 - 60 Min Each Problem Max
+
 ### Morning
 - https://leetcode.com/problems/integer-break/description/ ✅ 
 - https://leetcode.com/problems/count-numbers-with-unique-digits/description/ ✅ 
