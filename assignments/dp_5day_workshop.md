@@ -11,7 +11,7 @@
 
 ### Day 1 - Evening
 - https://leetcode.com/problems/filling-bookcase-shelves/description/ ✅ 🔄
-- https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/
+- https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/ ✅ 🔄
 - https://leetcode.com/problems/greatest-sum-divisible-by-three/description/
 - https://leetcode.com/problems/student-attendance-record-ii/description/
 - https://leetcode.com/problems/decode-ways-ii/description/
