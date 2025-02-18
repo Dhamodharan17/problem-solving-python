@@ -1,4 +1,4 @@
-# Rules : 40 - 60 Min Each Problem Max
+#### Rules : 40 - 60 Min Each Problem Max
 
 ### Morning
 - https://leetcode.com/problems/integer-break/description/ ✅ 
