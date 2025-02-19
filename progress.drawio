@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Page-1" id="svBv-zBPLVtbtiTf6Jia">
-    <mxGraphModel dx="1433" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3AZIx9r4ZMq2hVfcq7Wi-1" value="&lt;b&gt;SLIDING WINDOW&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="3AZIx9r4ZMq2hVfcq7Wi-1" value="&lt;b&gt;SLIDING WINDOW&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="356.78" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3AZIx9r4ZMq2hVfcq7Wi-2" value="&lt;b&gt;PREFIX SUM&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -91,26 +91,29 @@
         <mxCell id="Tqx3JiJj4iFWmPvK3-L_-8" value="&lt;b&gt;REQUIREMENT UNDERSTANDING&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="31.779999999999973" y="30" width="340" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kSK1grTew4AYDiJdTAoP-1" value="&lt;b&gt;SLIDING WINDOW&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kSK1grTew4AYDiJdTAoP-1" value="&lt;b&gt;SLIDING WINDOW&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="41.78" y="189" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kSK1grTew4AYDiJdTAoP-2" value="&lt;b&gt;PREFIX SUM&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kSK1grTew4AYDiJdTAoP-2" value="&lt;b&gt;PREFIX SUM&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="356.78" y="349" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kSK1grTew4AYDiJdTAoP-3" value="&lt;b&gt;LINESWEEP&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kSK1grTew4AYDiJdTAoP-3" value="&lt;b&gt;LINESWEEP&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="356.78" y="429" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kSK1grTew4AYDiJdTAoP-4" value="&lt;b&gt;GRAPH&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kSK1grTew4AYDiJdTAoP-4" value="&lt;b&gt;GRAPH&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="356.78" y="749" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kSK1grTew4AYDiJdTAoP-5" value="&lt;b&gt;BINARY SEARCH&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kSK1grTew4AYDiJdTAoP-5" value="&lt;b&gt;BINARY SEARCH&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="356.78" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kSK1grTew4AYDiJdTAoP-6" value="&lt;b&gt;STACK&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kSK1grTew4AYDiJdTAoP-6" value="&lt;b&gt;STACK&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="356.78" y="509" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kSK1grTew4AYDiJdTAoP-7" value="&lt;b&gt;DYN. PROG&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kSK1grTew4AYDiJdTAoP-7" value="&lt;b&gt;DYN. PROG&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="360" y="829" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="solAPoYDiZr8NNvwFFpb-1" value="&lt;b&gt;2 POINTER&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="279" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
