@@ -31,7 +31,7 @@
         <mxCell id="3AZIx9r4ZMq2hVfcq7Wi-9" value="&lt;b&gt;DYN. PROG&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="41.78" y="829" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3AZIx9r4ZMq2hVfcq7Wi-10" value="&lt;b&gt;TREES &amp;amp; TYPES&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="3AZIx9r4ZMq2hVfcq7Wi-10" value="&lt;b&gt;TREES, HEAP, TRIE&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="41.78" y="909" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3AZIx9r4ZMq2hVfcq7Wi-11" value="&lt;b&gt;LINKEDLIST&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
