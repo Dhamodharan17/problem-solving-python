@@ -18,7 +18,10 @@
 
 ### Day 2 - Morning
 - https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/✅ 🔄
-- https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/
+
+### Day 3 - Morning
+
+- https://leetcode.com/problems/maximum-profit-in-job-scheduling/description/ ✅ 🔄
 - https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/
 - https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/description/
 - https://leetcode.com/problems/stone-game-iii/description/
